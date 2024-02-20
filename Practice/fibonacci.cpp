@@ -21,7 +21,8 @@ int fibonacci(int n){ //iterative approach
 
 int main(){
     cout<<"Enter number: ";
-    int n=86;
+    int n;
+    cin>>n;
     cout<<"Fibonacci series for "<<n<<" numbers is: ";
     for(int i=0;i<n;i++){
         cout<<fibonacci(i)<<" ";
