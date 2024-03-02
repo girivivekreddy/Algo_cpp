@@ -34,10 +34,6 @@ for /l %%x in (1, 1, %numLoop%) do (
     )
     if errorlevel 0 (
         echo.
-        echo Input:
-        type input.in
-        echo Output:
-        type output2.out
         echo PASSED OK.
         echo.
          
@@ -58,6 +54,7 @@ if defined diff_found (
     echo.
     echo Expected:
     type output2.out
+    echo.
     echo *****************
     echo.
 ) else (

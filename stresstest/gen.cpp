@@ -14,8 +14,12 @@ ll random(ll a, ll b){
 }
 
 int main(){
-    int n = random(1000,9999);
+    int n = random(1,100);
     cout<<n<<"\n";
-    int m = random(1000,9999);
+    int m = random(1,100);
     cout<<m<<"\n";
+    for(int i=0;i<m;i++){
+        int d = random(0,100);
+        cout<<d<<endl;
+    }
 }
