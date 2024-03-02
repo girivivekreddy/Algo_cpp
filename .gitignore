@@ -3,3 +3,6 @@
 .cph
 *.json
 trash
+stresstest/brute.cpp
+stresstest/diagnostics
+stresstest/solution.cpp
