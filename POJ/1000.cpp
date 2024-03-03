@@ -4,7 +4,7 @@
 #include <cmath>
 #include <string>
 #include <vector>
- 
+
 using namespace std;
  
 typedef long long ll;
