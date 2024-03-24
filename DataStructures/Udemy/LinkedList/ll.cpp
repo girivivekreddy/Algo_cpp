@@ -7,10 +7,10 @@ struct Node{
 };
 
 struct Node *head = NULL; 
-
+    static Node *last;
 void create(int n){
     struct Node *temp;
-    static Node *last;
+
     
     if(head==NULL){
         head = new Node;
@@ -115,6 +115,30 @@ void deletefirst(){
     delete p;
 }
 
+void deletepos(struct Node *p, int pos){
+    struct Node *prev;
+    if(pos==0){
+            Node *p = head;
+    head = head->next;
+    delete p;
+    return;
+    }
+    while(pos--){
+        prev = p;
+        p = p->next;
+    }
+    if(p->next == NULL){
+        prev->next = NULL;
+        delete p;
+        last = prev;
+    }else{
+    prev->next = p->next;
+    delete p;
+    }
+
+
+}
+
 
 
 int main(){
@@ -144,8 +168,19 @@ int main(){
     cout<<endl;
     deletefirst();
     display();
-    // create(100);
-    // display();
+
+    deletepos(head,5);
+    display();
+    create(100);
+    display();
+        deletepos(head,5);
+    display();
+    create(1000);
+    display();
+    insb(7);
+    display();
+        insert(7,1212);
+        display();
     // insb(10);
     // display();
     // insb(500);
@@ -157,9 +192,9 @@ int main(){
     // display();
 
 
-    // cout<<"count is: "<<count()<<endl;
+    cout<<"count is: "<<count()<<endl;
     // cout<<"sum is: "<<sum()<<endl;
-    // cout<<"Max element of ll is: "<<max()<<endl;
+    cout<<"Max element of ll is: "<<max()<<endl;
     // cout<<"search: "<<search(600 )<<endl;
     return 0;
 }

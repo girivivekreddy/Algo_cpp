@@ -7,4 +7,5 @@ stresstest/brute.cpp
 stresstest/diagnostics
 stresstest/solution.cpp
 *.o
+*.out
 *.
