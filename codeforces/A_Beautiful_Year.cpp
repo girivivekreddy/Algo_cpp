@@ -13,7 +13,6 @@ ll MOD = 1000000007;
 #define endl '\n'
 
 bool isdistinct(int n){
-   int ex = 1;
    stringstream stream;
    stream << n;
    string s;

@@ -15,15 +15,16 @@ int main()
 {
    ios::sync_with_stdio(false);
    cin.tie(NULL);
-   int n;
-   cin>>n;
-   for(int i=1;i<=n;i++){
-      if(i%2!=0){
-         cout<<"I hate";
-      }
-      else cout<<"I love";
-      if(i==n) cout<<" it";
-      else cout<<" that ";
-   }
+    int n;
+    cin>>n;
+    int *arr = new int[n];
+    for(int i=0;i<n;i++){
+        int a;cin>>a;
+        arr[a-1] = i+1;
+    }
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+    delete[] arr;
    return 0;
 }
