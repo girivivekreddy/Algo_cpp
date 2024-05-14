@@ -15,6 +15,7 @@ int main()
 {
    ios::sync_with_stdio(false);
    cin.tie(NULL);
+
     int n;cin>>n;
     string s;
     cin>>s;
@@ -27,5 +28,6 @@ int main()
     if(a==d) {cout<<"Friendship"<<endl;
     return 0;}
     (a>d) ? cout<<"Anton" : cout<<"Danik";
+    cin.get();
    return 0;
 }
