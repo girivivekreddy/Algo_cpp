@@ -2,14 +2,14 @@
 TEST - 1: 
  
 INPUT 
-298
-567
+759
+991
  
 OUTPUT 
-865
+232
  
 EXPECTED OUTPUT 
-865
+232
  
 status: PASSED 
 ******************* 
@@ -18,14 +18,14 @@ status: PASSED
 TEST - 2: 
  
 INPUT 
-357
-208
+220
+802
  
 OUTPUT 
-565
+582
  
 EXPECTED OUTPUT 
-565
+582
  
 status: PASSED 
 ******************* 
@@ -34,14 +34,14 @@ status: PASSED
 TEST - 3: 
  
 INPUT 
-233
-387
+293
+699
  
 OUTPUT 
-620
+406
  
 EXPECTED OUTPUT 
-620
+406
  
 status: PASSED 
 ******************* 
@@ -50,14 +50,14 @@ status: PASSED
 TEST - 4: 
  
 INPUT 
-564
-465
+491
+766
  
 OUTPUT 
-1029
+275
  
 EXPECTED OUTPUT 
-1029
+275
  
 status: PASSED 
 ******************* 
@@ -66,30 +66,30 @@ status: PASSED
 TEST - 5: 
  
 INPUT 
-362
-171
+313
+110
  
 OUTPUT 
-533
+1
  
 EXPECTED OUTPUT 
-533
+-203
  
-status: PASSED 
+status: FAILED 
 ******************* 
  
 ******************* 
 TEST - 6: 
  
 INPUT 
-216
-894
+245
+961
  
 OUTPUT 
-1110
+716
  
 EXPECTED OUTPUT 
-1110
+716
  
 status: PASSED 
 ******************* 
@@ -98,62 +98,62 @@ status: PASSED
 TEST - 7: 
  
 INPUT 
-212
-17
+985
+153
  
 OUTPUT 
-229
+1
  
 EXPECTED OUTPUT 
-229
+-832
  
-status: PASSED 
+status: FAILED 
 ******************* 
  
 ******************* 
 TEST - 8: 
  
 INPUT 
-756
-99
+941
+274
  
 OUTPUT 
-855
+1
  
 EXPECTED OUTPUT 
-855
+-667
  
-status: PASSED 
+status: FAILED 
 ******************* 
  
 ******************* 
 TEST - 9: 
  
 INPUT 
-947
-618
+530
+766
  
 OUTPUT 
-1518
+236
  
 EXPECTED OUTPUT 
-1565
+236
  
-status: FAILED 
+status: PASSED 
 ******************* 
  
 ******************* 
 TEST - 10: 
  
 INPUT 
-597
-60
+842
+885
  
 OUTPUT 
-657
+43
  
 EXPECTED OUTPUT 
-657
+43
  
 status: PASSED 
 ******************* 
@@ -162,14 +162,14 @@ status: PASSED
 TEST - 11: 
  
 INPUT 
-475
-860
+480
+512
  
 OUTPUT 
-1335
+32
  
 EXPECTED OUTPUT 
-1335
+32
  
 status: PASSED 
 ******************* 
@@ -178,14 +178,14 @@ status: PASSED
 TEST - 12: 
  
 INPUT 
-119
-476
+756
+988
  
 OUTPUT 
-595
+232
  
 EXPECTED OUTPUT 
-595
+232
  
 status: PASSED 
 ******************* 
@@ -194,14 +194,14 @@ status: PASSED
 TEST - 13: 
  
 INPUT 
-259
-92
+439
+620
  
 OUTPUT 
-351
+181
  
 EXPECTED OUTPUT 
-351
+181
  
 status: PASSED 
 ******************* 
@@ -210,34 +210,1394 @@ status: PASSED
 TEST - 14: 
  
 INPUT 
-587
-571
+442
+271
  
 OUTPUT 
-1158
+1
  
 EXPECTED OUTPUT 
-1158
+-171
  
-status: PASSED 
+status: FAILED 
 ******************* 
  
 ******************* 
 TEST - 15: 
  
 INPUT 
-592
-913
+904
+448
  
 OUTPUT 
-1505
+1
  
 EXPECTED OUTPUT 
-1505
+-456
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 16: 
+ 
+INPUT 
+901
+893
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-8
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 17: 
+ 
+INPUT 
+658
+170
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-488
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 18: 
+ 
+INPUT 
+566
+752
+ 
+OUTPUT 
+186
+ 
+EXPECTED OUTPUT 
+186
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 19: 
+ 
+INPUT 
+79
+928
+ 
+OUTPUT 
+849
+ 
+EXPECTED OUTPUT 
+849
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 20: 
+ 
+INPUT 
+817
+436
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-381
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 21: 
+ 
+INPUT 
+658
+594
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-64
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 22: 
+ 
+INPUT 
+406
+563
+ 
+OUTPUT 
+157
+ 
+EXPECTED OUTPUT 
+157
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 23: 
+ 
+INPUT 
+191
+212
+ 
+OUTPUT 
+21
+ 
+EXPECTED OUTPUT 
+21
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 24: 
+ 
+INPUT 
+65
+234
+ 
+OUTPUT 
+169
+ 
+EXPECTED OUTPUT 
+169
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 25: 
+ 
+INPUT 
+698
+55
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-643
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 26: 
+ 
+INPUT 
+386
+730
+ 
+OUTPUT 
+344
+ 
+EXPECTED OUTPUT 
+344
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 27: 
+ 
+INPUT 
+812
+116
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-696
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 28: 
+ 
+INPUT 
+12
+651
+ 
+OUTPUT 
+639
+ 
+EXPECTED OUTPUT 
+639
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 29: 
+ 
+INPUT 
+16
+129
+ 
+OUTPUT 
+113
+ 
+EXPECTED OUTPUT 
+113
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 30: 
+ 
+INPUT 
+961
+298
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-663
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 31: 
+ 
+INPUT 
+541
+413
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-128
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 32: 
+ 
+INPUT 
+775
+63
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-712
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 33: 
+ 
+INPUT 
+841
+306
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-535
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 34: 
+ 
+INPUT 
+220
+87
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-133
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 35: 
+ 
+INPUT 
+375
+392
+ 
+OUTPUT 
+17
+ 
+EXPECTED OUTPUT 
+17
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 36: 
+ 
+INPUT 
+632
+278
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-354
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 37: 
+ 
+INPUT 
+417
+744
+ 
+OUTPUT 
+327
+ 
+EXPECTED OUTPUT 
+327
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 38: 
+ 
+INPUT 
+649
+493
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-156
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 39: 
+ 
+INPUT 
+640
+564
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-76
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 40: 
+ 
+INPUT 
+603
+561
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-42
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 41: 
+ 
+INPUT 
+242
+676
+ 
+OUTPUT 
+434
+ 
+EXPECTED OUTPUT 
+434
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 42: 
+ 
+INPUT 
+524
+322
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-202
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 43: 
+ 
+INPUT 
+643
+331
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-312
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 44: 
+ 
+INPUT 
+637
+758
+ 
+OUTPUT 
+121
+ 
+EXPECTED OUTPUT 
+121
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 45: 
+ 
+INPUT 
+304
+797
+ 
+OUTPUT 
+493
+ 
+EXPECTED OUTPUT 
+493
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 46: 
+ 
+INPUT 
+796
+369
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-427
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 47: 
+ 
+INPUT 
+10
+943
+ 
+OUTPUT 
+933
+ 
+EXPECTED OUTPUT 
+933
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 48: 
+ 
+INPUT 
+226
+909
+ 
+OUTPUT 
+683
+ 
+EXPECTED OUTPUT 
+683
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 49: 
+ 
+INPUT 
+828
+744
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-84
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 50: 
+ 
+INPUT 
+834
+292
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-542
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 51: 
+ 
+INPUT 
+437
+70
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-367
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 52: 
+ 
+INPUT 
+1000
+148
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-852
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 53: 
+ 
+INPUT 
+336
+455
+ 
+OUTPUT 
+119
+ 
+EXPECTED OUTPUT 
+119
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 54: 
+ 
+INPUT 
+763
+803
+ 
+OUTPUT 
+40
+ 
+EXPECTED OUTPUT 
+40
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 55: 
+ 
+INPUT 
+293
+589
+ 
+OUTPUT 
+296
+ 
+EXPECTED OUTPUT 
+296
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 56: 
+ 
+INPUT 
+302
+930
+ 
+OUTPUT 
+628
+ 
+EXPECTED OUTPUT 
+628
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 57: 
+ 
+INPUT 
+773
+713
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-60
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 58: 
+ 
+INPUT 
+841
+905
+ 
+OUTPUT 
+64
+ 
+EXPECTED OUTPUT 
+64
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 59: 
+ 
+INPUT 
+627
+398
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-229
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 60: 
+ 
+INPUT 
+563
+29
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-534
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 61: 
+ 
+INPUT 
+869
+602
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-267
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 62: 
+ 
+INPUT 
+576
+339
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-237
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 63: 
+ 
+INPUT 
+375
+905
+ 
+OUTPUT 
+530
+ 
+EXPECTED OUTPUT 
+530
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 64: 
+ 
+INPUT 
+769
+174
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-595
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 65: 
+ 
+INPUT 
+986
+602
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-384
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 66: 
+ 
+INPUT 
+369
+646
+ 
+OUTPUT 
+277
+ 
+EXPECTED OUTPUT 
+277
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 67: 
+ 
+INPUT 
+70
+793
+ 
+OUTPUT 
+723
+ 
+EXPECTED OUTPUT 
+723
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 68: 
+ 
+INPUT 
+701
+901
+ 
+OUTPUT 
+200
+ 
+EXPECTED OUTPUT 
+200
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 69: 
+ 
+INPUT 
+418
+40
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-378
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 70: 
+ 
+INPUT 
+307
+663
+ 
+OUTPUT 
+356
+ 
+EXPECTED OUTPUT 
+356
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 71: 
+ 
+INPUT 
+7
+988
+ 
+OUTPUT 
+981
+ 
+EXPECTED OUTPUT 
+981
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 72: 
+ 
+INPUT 
+401
+677
+ 
+OUTPUT 
+276
+ 
+EXPECTED OUTPUT 
+276
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 73: 
+ 
+INPUT 
+629
+571
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-58
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 74: 
+ 
+INPUT 
+173
+486
+ 
+OUTPUT 
+313
+ 
+EXPECTED OUTPUT 
+313
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 75: 
+ 
+INPUT 
+358
+399
+ 
+OUTPUT 
+41
+ 
+EXPECTED OUTPUT 
+41
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 76: 
+ 
+INPUT 
+78
+225
+ 
+OUTPUT 
+147
+ 
+EXPECTED OUTPUT 
+147
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 77: 
+ 
+INPUT 
+968
+415
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-553
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 78: 
+ 
+INPUT 
+673
+664
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-9
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 79: 
+ 
+INPUT 
+507
+184
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-323
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 80: 
+ 
+INPUT 
+254
+719
+ 
+OUTPUT 
+465
+ 
+EXPECTED OUTPUT 
+465
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 81: 
+ 
+INPUT 
+793
+235
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-558
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 82: 
+ 
+INPUT 
+621
+356
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-265
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 83: 
+ 
+INPUT 
+67
+261
+ 
+OUTPUT 
+194
+ 
+EXPECTED OUTPUT 
+194
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 84: 
+ 
+INPUT 
+403
+145
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-258
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 85: 
+ 
+INPUT 
+49
+343
+ 
+OUTPUT 
+294
+ 
+EXPECTED OUTPUT 
+294
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 86: 
+ 
+INPUT 
+614
+432
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-182
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 87: 
+ 
+INPUT 
+100
+226
+ 
+OUTPUT 
+126
+ 
+EXPECTED OUTPUT 
+126
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 88: 
+ 
+INPUT 
+741
+852
+ 
+OUTPUT 
+111
+ 
+EXPECTED OUTPUT 
+111
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 89: 
+ 
+INPUT 
+370
+964
+ 
+OUTPUT 
+594
+ 
+EXPECTED OUTPUT 
+594
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 90: 
+ 
+INPUT 
+762
+176
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-586
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 91: 
+ 
+INPUT 
+9
+748
+ 
+OUTPUT 
+739
+ 
+EXPECTED OUTPUT 
+739
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 92: 
+ 
+INPUT 
+419
+322
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-97
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 93: 
+ 
+INPUT 
+220
+908
+ 
+OUTPUT 
+688
+ 
+EXPECTED OUTPUT 
+688
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 94: 
+ 
+INPUT 
+810
+406
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-404
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 95: 
+ 
+INPUT 
+419
+707
+ 
+OUTPUT 
+288
+ 
+EXPECTED OUTPUT 
+288
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 96: 
+ 
+INPUT 
+372
+863
+ 
+OUTPUT 
+491
+ 
+EXPECTED OUTPUT 
+491
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 97: 
+ 
+INPUT 
+161
+867
+ 
+OUTPUT 
+706
+ 
+EXPECTED OUTPUT 
+706
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 98: 
+ 
+INPUT 
+491
+562
+ 
+OUTPUT 
+71
+ 
+EXPECTED OUTPUT 
+71
+ 
+status: PASSED 
+******************* 
+ 
+******************* 
+TEST - 99: 
+ 
+INPUT 
+417
+120
+ 
+OUTPUT 
+1
+ 
+EXPECTED OUTPUT 
+-297
+ 
+status: FAILED 
+******************* 
+ 
+******************* 
+TEST - 100: 
+ 
+INPUT 
+466
+752
+ 
+OUTPUT 
+286
+ 
+EXPECTED OUTPUT 
+286
  
 status: PASSED 
 ******************* 
  
 ***************** 
-All tests completed. Passed: 14, Failed: 1. 
+All tests completed. Passed: 53, Failed: 47. 
 ***************** 

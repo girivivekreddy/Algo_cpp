@@ -6,6 +6,7 @@ trash
 stresstest/mycode.cpp
 stresstest/diagnostics
 stresstest/solution.cpp
+*.txt
 *.o
 *.out
-*.
+0learn
