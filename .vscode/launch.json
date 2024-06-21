@@ -8,11 +8,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Algorithms_69969004"
+        },
+        {
             "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-              // There I have got error Property keys must be doublequotedjsonc
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
