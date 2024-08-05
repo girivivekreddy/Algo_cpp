@@ -1,4 +1,5 @@
 *.exe
+.vscode
 .cph
 *.json
 stresstest/mycode.cpp
