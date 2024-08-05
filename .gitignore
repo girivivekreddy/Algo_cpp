@@ -8,3 +8,4 @@ stresstest/solution.cpp
 *.out
 learn
 *.txt
+!intro.txt
