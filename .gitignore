@@ -10,3 +10,4 @@ stresstest/solution.cpp
 *.
 *.out
 learn
+!*/
