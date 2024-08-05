@@ -1,5 +1,4 @@
 *.exe
-.vscode
 .cph
 *.json
 trash
@@ -8,5 +7,6 @@ stresstest/diagnostics
 stresstest/solution.cpp
 *.txt
 *.o
+*.
 *.out
 learn
