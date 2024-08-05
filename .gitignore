@@ -1,15 +1,9 @@
 *.exe
 .cph
 *.json
-trash
 stresstest/mycode.cpp
 stresstest/diagnostics
 stresstest/solution.cpp
-*.txt
-*.o
-*.
 *.out
 learn
-# Ignore files without an extension
-*[^.]*  # Ignore files that do not have a dot in their names
-!*/     # Allow directories
+*.txt
